@@ -125,13 +125,13 @@ class NetflixView: BaseView {
     }
     
     override func configureUI() {
-        [backgroundRandonImageView,backgroundBlackView].forEach {
+        [backgroundRandonImageView,backgroundBlackView,logoButton].forEach {
             self.addSubview($0)
         }
         backgroundRandonImageView.addSubview(backgroundBlurImageView)
         backgroundBlackView.addSubview(backgroundBlurImageView)
         
-        [logoButton, tvProgramButton, movieButton, topContentButton, bottomContentImageView, bottomContentLabel, playButton, infoImageView,infoLabel, previewLabel, firstPreviewImageView, secondPreviewImageView, thirdPreviewCImageView].forEach {
+        [tvProgramButton, movieButton, topContentButton, bottomContentImageView, bottomContentLabel, playButton, infoImageView,infoLabel, previewLabel, firstPreviewImageView, secondPreviewImageView, thirdPreviewCImageView].forEach {
             backgroundBlurImageView.addSubview($0)
         }
         

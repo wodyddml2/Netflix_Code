@@ -20,6 +20,9 @@
 		6398DA0328AFC9AE0090741F /* NetflixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6398DA0228AFC9AE0090741F /* NetflixView.swift */; };
 		6398DA0628AFC9EE0090741F /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6398DA0528AFC9EE0090741F /* SnapKit */; };
 		6398DA0828AFCA0C0090741F /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6398DA0728AFCA0C0090741F /* UIButton+Extension.swift */; };
+		6398DA0B28AFCB320090741F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6398DA0A28AFCB320090741F /* SignUpViewController.swift */; };
+		6398DA0D28AFCB3B0090741F /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6398DA0C28AFCB3B0090741F /* SignUpView.swift */; };
+		63F6C99828B24FA800128270 /* SignUpTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F6C99728B24FA800128270 /* SignUpTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,9 @@
 		6398DA0028AFC9960090741F /* NetflixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixViewController.swift; sourceTree = "<group>"; };
 		6398DA0228AFC9AE0090741F /* NetflixView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixView.swift; sourceTree = "<group>"; };
 		6398DA0728AFCA0C0090741F /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		6398DA0A28AFCB320090741F /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		6398DA0C28AFCB3B0090741F /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		63F6C99728B24FA800128270 /* SignUpTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,8 +76,10 @@
 		6398D9E228AFC8FE0090741F /* Netflix_Code */ = {
 			isa = PBXGroup;
 			children = (
+				6398DA0728AFCA0C0090741F /* UIButton+Extension.swift */,
 				6398D9F728AFC9380090741F /* Utilty */,
 				6398D9FC28AFC9650090741F /* Netflix */,
+				6398DA0928AFCB080090741F /* Login */,
 				6398D9E328AFC8FE0090741F /* AppDelegate.swift */,
 				6398D9E528AFC8FE0090741F /* SceneDelegate.swift */,
 				6398D9E728AFC8FE0090741F /* ViewController.swift */,
@@ -79,7 +87,6 @@
 				6398D9EC28AFC8FF0090741F /* Assets.xcassets */,
 				6398D9EE28AFC8FF0090741F /* LaunchScreen.storyboard */,
 				6398D9F128AFC8FF0090741F /* Info.plist */,
-				6398DA0728AFCA0C0090741F /* UIButton+Extension.swift */,
 			);
 			path = Netflix_Code;
 			sourceTree = "<group>";
@@ -87,6 +94,7 @@
 		6398D9F728AFC9380090741F /* Utilty */ = {
 			isa = PBXGroup;
 			children = (
+				6398D9FD28AFC9740090741F /* CustomView */,
 				6398D9F828AFC94B0090741F /* BaseViewController.swift */,
 				6398D9FA28AFC95A0090741F /* BaseView.swift */,
 			);
@@ -96,7 +104,6 @@
 		6398D9FC28AFC9650090741F /* Netflix */ = {
 			isa = PBXGroup;
 			children = (
-				6398D9FD28AFC9740090741F /* CustomView */,
 				6398DA0028AFC9960090741F /* NetflixViewController.swift */,
 				6398DA0228AFC9AE0090741F /* NetflixView.swift */,
 			);
@@ -107,8 +114,18 @@
 			isa = PBXGroup;
 			children = (
 				6398D9FE28AFC9830090741F /* PreviewImageView.swift */,
+				63F6C99728B24FA800128270 /* SignUpTextField.swift */,
 			);
 			path = CustomView;
+			sourceTree = "<group>";
+		};
+		6398DA0928AFCB080090741F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				6398DA0A28AFCB320090741F /* SignUpViewController.swift */,
+				6398DA0C28AFCB3B0090741F /* SignUpView.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,9 +210,12 @@
 				6398D9FF28AFC9830090741F /* PreviewImageView.swift in Sources */,
 				6398D9F928AFC94B0090741F /* BaseViewController.swift in Sources */,
 				6398D9FB28AFC95A0090741F /* BaseView.swift in Sources */,
+				63F6C99828B24FA800128270 /* SignUpTextField.swift in Sources */,
 				6398DA0828AFCA0C0090741F /* UIButton+Extension.swift in Sources */,
 				6398D9E428AFC8FE0090741F /* AppDelegate.swift in Sources */,
 				6398D9E628AFC8FE0090741F /* SceneDelegate.swift in Sources */,
+				6398DA0D28AFCB3B0090741F /* SignUpView.swift in Sources */,
+				6398DA0B28AFCB320090741F /* SignUpViewController.swift in Sources */,
 				6398DA0128AFC9960090741F /* NetflixViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

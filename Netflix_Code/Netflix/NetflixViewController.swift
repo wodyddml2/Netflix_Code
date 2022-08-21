@@ -10,7 +10,19 @@ class NetflixViewController: BaseViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+      
+    }
+    override func configureUI() {
+        mainView.logoButton.addTarget(self, action: #selector(logoButtonClicked), for: .touchUpInside)
 
+    }
+    
+    @objc func logoButtonClicked() {
+        let signupVC = SignUpViewController()
+        signupVC.modalPresentationStyle = .fullScreen
+        
+        present(signupVC, animated: true)
     }
     
     
